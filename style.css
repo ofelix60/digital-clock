@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #212121;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0 auto;
+	font-family: monospace;
+	font-size: 100px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 30px auto;
+	width: 900px;
+}
+
+.date {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 80px;
+}
+
+.btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: flex-end;
+}
+
+.military {
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+	background-color: #4c8bf5;
+	color: #fff;
+	font-family: monospace;
+	font-size: 30px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+}
